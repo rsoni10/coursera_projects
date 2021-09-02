@@ -1,0 +1,17 @@
+{
+  "name": "html-website",
+  "version": "1.0.0",
+  "description": "its fullstack project",
+  "main": "index.html",
+  "dependencies": {
+    "less": "^3.13.0",
+    "lite-server": "^2.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

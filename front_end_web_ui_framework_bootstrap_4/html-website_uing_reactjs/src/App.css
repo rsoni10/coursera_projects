@@ -1,0 +1,81 @@
+header.jumbotron {
+  background: #9575CD;
+    color: #fff;
+    text-align: left;
+    padding: 30px 0;
+    border-radius: 5px;
+}
+header.jumbotron p {
+  margin-top: 0;
+}
+header.jumbotron h1 {
+  margin: 0px;
+  /* border-left: 3px solid #6a22e8; */
+  /* padding-left: 10px; */
+  font-weight: 600;
+}
+.mid-sect p {
+  font-size: 15px;
+}
+.mid-sect h2, .mid-sect h3 ,.mid-sect p{
+  text-align: left;
+}
+footer.footer {
+  background: #d1bdf5d9;
+}
+ul.list-unstyled {
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+ul.list-unstyled li {
+  text-align: left;
+}
+ul.list-unstyled li a {
+  text-decoration: none;
+  font-size: 14px;
+}
+small {
+  color: #484848;
+}
+.footer h5 ,.footer address{
+  text-align: left;
+  font-size: 14px;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
